@@ -1,0 +1,2 @@
+size tablet - 1280x720
+size imagem projeto - 750x490
