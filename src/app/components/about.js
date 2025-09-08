@@ -1,20 +1,24 @@
+"use client";
 import { clashDisplay } from "../lib/fonts.js";
 import Image from "next/image";
 import AboutBg from "../../../public/assets/img/b.png";
 import { getFrontEndSkills } from "../utils/utils.js";
 import SpanSkills from "./spanSkills.js";
+import { useTranslation } from "react-i18next";
+
 
 const About = () => { 
     const frontEndSkills = getFrontEndSkills();
+    const { t } = useTranslation();
     
     return (
         <section className="w-full flex flex-col justify-center items-center py-10 px-4 md:py-20" id="about">
             <h1 className={`text-3xl md:text-5xl font-bold text-center ${clashDisplay.className} antialiased`}>
-                Sobre 
-                <span className="ml-4 text-purple-500">Mim</span>
+                {t('about')}
+                <span className="ml-4 text-purple-500">{t('me')}</span>
             </h1>
-            <p className="mt-8 text-center text-base font-normal text-[#a9a9bd]">
-                Um pouco sobre a minha trajetória e habilidades como desenvolvedor web.
+            <p className="mt-8 text-center text-base font-normal text-[#a9a9bd] ">
+                {t('subtitleAbout')}
             </p>
             
             <div className="max-w-[1250px] flex flex-col-reverse mt-20 md:flex-row md:space-x-6">
@@ -29,11 +33,10 @@ const About = () => {
                 <div className='flex flex-col border border-white/15 rounded-xl w-full p-4 md:p-8 md:w-[55%] lg:w-[70%] 
                 hover:-translate-y-1 transition-all'>
                     <h1 className="text-3xl tracking-tighter text-center font-medium md:text-4xl">
-                        Desenvolvedor Front-End Júnior
+                        {t('AboutH1Title')}
                     </h1>
                     <p className="mt-8 text-center text-sm font-normal text-[#a9a9bd] md:text-base">
-                        Sou estudante no último semestre de Sistemas de informação e desenvolvedor front-end em busca da primeira experiência profissional. Tenho experiência prática adquirida por meio de projetos independentes, onde aplico React.js, Next.js, Redux, TailwindCSS, TypeScript, JavaScript, HTML, CSS e Styled Components para construir aplicações web modernas, responsivas e de alta performance.
-                        Gosto de desenvolver interfaces dinâmicas, otimizar a experiência do usuário e escrever código limpo e bem estruturado, sempre buscando aprender e evoluir como profissional.
+                        {t('AboutDescrip')}
                     </p>
 
                     <div className="w-full flex flex-col items-center mt-6 lg:flex-row">
@@ -62,23 +65,23 @@ const About = () => {
             <div className='max-w-[1250px] flex flex-col mt-8 space-y-6 md:flex-row md:space-x-6 md:space-y-0'>
                 <div className="flex flex-col border border-white/15 rounded-xl w-full p-4 md:p-8 md:w-[50%]
                 hover:-translate-y-1 transition-all">
-                    <h1 className="text-xl font-bold text-[#f6f7ff]">📚 Educação</h1>
+                    <h1 className="text-xl font-bold text-[#f6f7ff]">📚 {t('Education')}</h1>
                     <h1 className="text-sm md:text-base text-[#a9a9bd] mt-2">
-                        <strong>Graduação: Sistemas de informação</strong> -
-                        Universidade Nove de Julho (2022 - 2025)
+                        <strong>{t('EducationFaculty1')}</strong>
+                        {t('EducationFaculty2')}
                     </h1>
                     <h1 className="text-sm md:text-base text-[#a9a9bd] mt-2">
-                        <strong>Cursos Relevantes:</strong> -
-                        Desenvolvimento Web - React.js - JavaScript 
+                        <strong>{t('RelevantCourses1')}</strong> 
+                        {t('RelevantCourses2')}
                     </h1>
                 </div>
                 <div className="flex flex-col border border-white/15 rounded-xl w-full p-4 md:p-8 md:w-[50%]
                 hover:-translate-y-1 transition-all">
-                    <h1 className="text-xl font-bold text-[#f6f7ff]">💼 Experiência profissional</h1>
+                    <h1 className="text-xl font-bold text-[#f6f7ff]">💼 {t('ProfessionalExperience')}</h1>
                     <h1 className="text-sm md:text-base text-[#a9a9bd] mt-2">
-                        <strong>Desenvolvedor Front-End (Projetos Independentes) | 2022 - Presente</strong>
+                        <strong>{t('ProfessionalExperienceH1')}</strong>
                     </h1>
-                    <p className="text-sm md:text-base text-[#a9a9bd] ">Desenvolvimento e manutenção de projetos próprios com foco em aprimorar habilidades em front-end. Experiência prática na criação de aplicações web responsivas utilizando React.js, Next.js, Redux, TailwindCSS, TypeScript, JavaScript, HTML, CSS e Styled Components. Atividades nesses projetos incluem implementação de interfaces modernas, gerenciamento de estado com Redux, aplicação de boas práticas de design responsivo e integração de componentes reutilizáveis.</p>    
+                    <p className="text-sm md:text-base text-[#a9a9bd] ">{t('ProfessionalExperienceP')}</p>    
                 </div>
             </div>
         </section>

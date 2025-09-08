@@ -1,0 +1,30 @@
+{
+    "HeroHello": "Hey! I'm Lucas.",
+    "HeroText": "I develop efficient web applications, focusing on user experience and clean code.",
+    "HeroContactButton": "Contact",
+    "about": "About",
+    "me": "Me",
+    "subtitleAbout": "A little about my trajectory and skills as a web developer.",
+    "AboutH1Title": "Junior Front-End Developer" ,
+    "AboutDescrip": "I'm a final-semester Information Systems student and a front-end developer seeking my first professional experience. I have gained practical experience through independent projects, where I apply React.js, Next.js, Redux, TailwindCSS, TypeScript, JavaScript, HTML, CSS, and Styled Components to build modern, responsive, and high-performance web applications. I enjoy developing dynamic interfaces, optimizing the user experience, and writing clean, well-structured code, always striving to learn and grow as a professional." ,
+    "Education": "Education",
+    "EducationFaculty1": "Graduation: Information Systems",
+    "EducationFaculty2": " - Universidade Nove de Julho (2022 - 2025)",
+    "RelevantCourses1": "Relevant Courses:",
+    "RelevantCourses2": " Web Development - React.js - JavaScript",
+    "ProfessionalExperience": "Professional experience",
+    "ProfessionalExperienceH1": "Front-End Developer (Independent Projects) | 2022 - Present",
+    "ProfessionalExperienceP": "Development and maintenance of in-house projects focused on enhancing front-end skills. Hands-on experience building responsive web applications using React.js, Next.js, Redux, TailwindCSS, TypeScript, JavaScript, HTML, CSS, and Styled Components. Activities in these projects include implementing modern interfaces, managing state with Redux, applying responsive design best practices, and integrating reusable components.",
+    "featured": "Featured",
+    "projects": "Projects",
+    "subtitleProjects": "Here are some of my recent projects.",
+    "ContactH1Sec1": "Let's create",
+    "ContactH1Sec2": "your",
+    "ContactH1Sec3": "next big idea.",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  }

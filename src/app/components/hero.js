@@ -2,9 +2,11 @@
 import { clashDisplay } from "../lib/fonts";
 import { motion } from "framer-motion";
 import { Spotlight } from "./spotlight";
+import { useTranslation } from "react-i18next";
 
 
 const Hero = () => {
+    const { t } = useTranslation();
     return (    
         <section className="relative overflow-hidden" id="home">
             <div className="w-full flex flex-col items-center justify-center ">
@@ -22,7 +24,7 @@ const Hero = () => {
                         <span className="text-3xl">👋🏻 </span>
                         <h2 className="font-bold text-3xl lg:text-4xl text-transparent 
                         bg-gradient-to-r from-purple-500 to-white bg-clip-text pb-1">
-                            Hey! eu sou Lucas.
+                            {t('HeroHello')}
                         </h2>
                     </motion.div>
                     <h1 className={`text-[#f6f7ff] my-8 relative z-10 mx-auto max-w-3xl text-center font-bold text-5xl md:text-6xl lg:text-8xl ${clashDisplay.className}`}> 
@@ -55,7 +57,7 @@ const Hero = () => {
                         }}
                         className="relative z-10 mx-auto max-w-xl my-8 text-center text-base md:text-lg font-normal text-[#a9a9bd]"
                     >
-                        Desenvolvo aplicações web eficientes, com foco em experiência do usuário e código limpo.
+                        {t('HeroText')}
                     </motion.p>
                     
                     <motion.div
@@ -72,7 +74,7 @@ const Hero = () => {
                     className="relative z-10 mt-8 w-full flex flex-col items-center justify-center space-y-2 md:flex-row md:space-y-0 md:space-x-4 ">
                         <button className="w-full md:w-60 shadow-[0_4px_14px_0_rgb(0,118,255,39%)] px-6 py-3 bg-purple-500 rounded-lg text-white font-light 
                         transition-all duration-300 hover:-translate-y-0.5 ease-linear hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-purple-400">
-                            Contato
+                            {t('HeroContactButton')}
                         </button>
 
                         <button className="w-full md:w-60 transform rounded-lg border bg-transparent px-6 py-3 font-medium border-gray-700 text-white

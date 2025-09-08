@@ -1,20 +1,22 @@
+"use client";
 import { clashDisplay } from "../lib/fonts.js";
 import ProjectCard from "../components/projectCard.js"
 import {getProjects} from "../utils/utils.js"
-import Link from "next/link.js";
+import { useTranslation } from "react-i18next";
 
 
 const projects = () => {
     const AllProjects = getProjects();
+    const { t } = useTranslation();
 
     return(
         <section className="w-full flex flex-col justify-center items-center py-10 px-4 md:py-20" id="projects">
             <h1 className={`text-3xl md:text-5xl font-bold text-center ${clashDisplay.className} antialiased`}>
-                Alguns  
-                <span className="ml-4 text-purple-500">Projetos</span>
+                {t('featured')}  
+                <span className="ml-4 text-purple-500">{t('projects')}</span>
             </h1>
             <p className="mt-8 text-center text-base font-normal text-[#a9a9bd]">
-                Aqui estão alguns dos meus projetos recentes.
+                {t('subtitleProjects')}
             </p>
             
             <div className="max-w-[1250px] flex flex-col mt-20 space-y-6 

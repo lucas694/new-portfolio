@@ -1,3 +1,10 @@
+import { FiGithub } from "react-icons/fi";
+import { LuMail } from "react-icons/lu";
+import { FiLinkedin } from "react-icons/fi";
+
+
+
+
 const frontEndSkills = [
     {id:1,name:"React.js"},
     {id:2,name:"Next.js"},
@@ -108,3 +115,12 @@ const AllProjects =[
   export function getProjects(){
     return AllProjects;
   }
+
+const SocialMedias =[
+    {id:1,link:"https://github.com/lucas694",icon:<FiGithub />        ,},
+    {id:2,link:"mailto:lucasassuncao694@gmail.com",icon:<LuMail />        ,},
+    {id:3,link:"https://www.linkedin.com/in/lucascardoso-assuncao/",icon:<FiLinkedin />        ,},
+]
+export function getSocialMedias(){
+    return SocialMedias
+}

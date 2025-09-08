@@ -1,0 +1,30 @@
+{
+    "HeroHello": "Hey! eu sou Lucas.",
+    "HeroText": "Desenvolvo aplicações web eficientes, com foco em experiência do usuário e código limpo.",
+    "HeroContactButton": "Contato",
+    "about": "Sobre",
+    "me": "Mim",
+    "subtitleAbout": "Um pouco sobre a minha trajetória e habilidades como desenvolvedor web.",
+    "AboutH1Title": "Desenvolvedor Front-End Júnior" ,
+    "AboutDescrip": "Sou estudante no último semestre de Sistemas de informação e desenvolvedor front-end em busca da primeira experiência profissional. Tenho experiência prática adquirida por meio de projetos independentes, onde aplico React.js, Next.js, Redux, TailwindCSS, TypeScript, JavaScript, HTML, CSS e Styled Components para construir aplicações web modernas, responsivas e de alta performance. Gosto de desenvolver interfaces dinâmicas, otimizar a experiência do usuário e escrever código limpo e bem estruturado, sempre buscando aprender e evoluir como profissional." ,
+    "Education": "Educação",
+    "EducationFaculty1": "Graduação: Sistemas de informação",
+    "EducationFaculty2": " - Universidade Nove de Julho (2022 - 2025)",
+    "RelevantCourses1": "Cursos Relevantes:",
+    "RelevantCourses2": " Desenvolvimento Web - React.js - JavaScript ",
+    "ProfessionalExperience": "Experiência profissional",
+    "ProfessionalExperienceH1": "Desenvolvedor Front-End (Projetos Independentes) | 2022 - Presente",
+    "ProfessionalExperienceP": "Desenvolvimento e manutenção de projetos próprios com foco em aprimorar habilidades em front-end. Experiência prática na criação de aplicações web responsivas utilizando React.js, Next.js, Redux, TailwindCSS, TypeScript, JavaScript, HTML, CSS e Styled Components. Atividades nesses projetos incluem implementação de interfaces modernas, gerenciamento de estado com Redux, aplicação de boas práticas de design responsivo e integração de componentes reutilizáveis.",
+    "featured": "Projetos em",
+    "projects": "Destaque",
+    "subtitleProjects": "Aqui estão alguns dos meus projetos recentes.",
+    "ContactH1Sec1": "Let's create",
+    "ContactH1Sec2": "your",
+    "ContactH1Sec3": "next big idea.",
+    "nav": {
+      "home": "Início",
+      "about": "Sobre",
+      "projects": "Projetos",
+      "contact": "Contato"
+    }
+  }
