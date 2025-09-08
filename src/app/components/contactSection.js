@@ -5,7 +5,7 @@ import { GrSend } from "react-icons/gr";
 import Link from "next/link.js";
 
 
-const contactSection = () => {
+const ContactSection = () => {
     const { t } = useTranslation();
     return(
         <section className="w-full flex flex-col justify-center items-center py-10 px-4 md:py-20" id="contact">
@@ -31,7 +31,7 @@ const contactSection = () => {
                         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                         <span className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-[#0b0b0d] px-7 py-3 text-base font-medium text-white backdrop-blur-3xl  `}
                         >
-                        Let's get in touch <GrSend className='ml-2 text-2xl 
+                        Let&apos;s get in touch <GrSend className='ml-2 text-2xl 
                         transform group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:scale-110 transition-transform duration-300' />
                         </span>
                     </button>
@@ -39,4 +39,4 @@ const contactSection = () => {
             </div>
         </section>
     )
-};export default contactSection
+};export default ContactSection

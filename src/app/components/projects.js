@@ -5,7 +5,7 @@ import {getProjects} from "../utils/utils.js"
 import { useTranslation } from "react-i18next";
 
 
-const projects = () => {
+const Projects = () => {
     const AllProjects = getProjects();
     const { t } = useTranslation();
 
@@ -36,4 +36,4 @@ const projects = () => {
         </section>
     )
 };
-export default projects 
+export default Projects 

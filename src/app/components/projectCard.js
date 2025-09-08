@@ -7,7 +7,7 @@ import Link from "next/link.js";
 
 
 
-const projectCard = (props) => {
+const ProjectCard = (props) => {
     const {id,img,title,description,gitlink,link,onMouseEnter,onMouseLeave} = props
     const [isHovered, setIsHovered] = useState(false)
 
@@ -57,4 +57,4 @@ const projectCard = (props) => {
             </div>
         </div>
     )
-};export default projectCard
+};export default ProjectCard
