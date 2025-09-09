@@ -19,9 +19,11 @@
     "featured": "Featured",
     "projects": "Projects",
     "subtitleProjects": "Here are some of my recent projects.",
+    "availability": "Available for work",
     "ContactH1Sec1": "Let's create",
     "ContactH1Sec2": "your",
     "ContactH1Sec3": "next big idea.",
+    "ContactButton": "Let's get in touch",
     "nav": {
       "home": "Home",
       "about": "About",

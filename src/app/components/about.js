@@ -49,16 +49,6 @@ const About = () => {
                                 ))}
                             </div>
                         </div>
-
-                        <div className="w-full flex flex-col p-6 text-center lg:w-1/2 
-                        hover:-translate-y-1 transition-all">
-                            <h1 className="text-xl font-bold mb-4">Back-end</h1>
-                            <div className="flex flex-wrap gap-2 justify-center w-auto lg:justify-start">
-                                {frontEndSkills.slice(0, 10).map((skill) => (
-                                    <SpanSkills key={skill.id} skill={skill.name} />
-                                ))}
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
