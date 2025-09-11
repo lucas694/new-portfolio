@@ -71,16 +71,19 @@ const Hero = () => {
                         duration: 0.3,
                         delay: 1,
                     }}
-                    className="relative z-10 mt-8 w-full flex flex-col items-center justify-center space-y-2 md:flex-row md:space-y-0 md:space-x-4 ">
-                        <button className="w-full md:w-60 shadow-[0_4px_14px_0_rgb(0,118,255,39%)] px-6 py-3 bg-purple-500 rounded-lg text-white font-light 
-                        transition-all duration-300 hover:-translate-y-0.5 ease-linear hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-purple-400">
-                            {t('HeroContactButton')}
-                        </button>
-
-                        <button className="w-full md:w-60 transform rounded-lg border bg-transparent px-6 py-3 font-medium border-gray-700 text-white
-                        transition-all duration-300 hover:-translate-y-0.5  hover:bg-gray-900">
-                            Github
-                        </button>
+                    className="relative z-10 mt-8 w-full flex flex-col items-center justify-center space-y-2 md:flex-row md:space-y-0 md:space-x-4  ">
+                        <a href="#contact">
+                            <button className="w-full md:w-60 shadow-[0_4px_14px_0_rgb(0,118,255,39%)] px-6 py-3 bg-purple-500 rounded-lg text-white font-light  cursor-pointer
+                            transition-all duration-300 hover:-translate-y-0.5 ease-linear hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-purple-400">
+                                {t('HeroContactButton')}
+                            </button>   
+                        </a>
+                        <a href="https://github.com/lucas694" target="_blank">
+                            <button className="w-full md:w-60 transform rounded-lg border bg-transparent px-6 py-3 font-medium border-gray-700 text-white cursor-pointer
+                            transition-all duration-300 hover:-translate-y-0.5  hover:bg-gray-900">
+                                Github
+                            </button>
+                        </a>
                     </motion.div>
 
                 </div>

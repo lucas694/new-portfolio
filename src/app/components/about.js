@@ -5,6 +5,7 @@ import AboutBg from "../../../public/assets/img/b.png";
 import { getFrontEndSkills } from "../utils/utils.js";
 import SpanSkills from "./spanSkills.js";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 
 const About = () => { 
