@@ -55,6 +55,14 @@ const AllProjects =[
     },
     {
         id:5 ,
+        title:"Fyrre",
+        description: "Full-Stack Project",
+        img:"/assets/img/project-cards/fyrre.png",
+        link:"https://fyrre-lkz22ai3l-lucas694s-projects.vercel.app",
+        GitLink:"https://github.com/lucas694/fyrre"
+    },
+    {
+        id:6 ,
         title:"Digital Marketing",
         description: "Full-Stack Project",
         img:"/assets/img/project-cards/digital-mark.png",
@@ -62,7 +70,7 @@ const AllProjects =[
         GitLink:"https://github.com/lucas694/digital-Marketing"
     },
     {
-        id:6 ,
+        id:7 ,
         title:"NFT Marketplace",
         description: "Full-Stack Project",
         img:"/assets/img/project-cards/nft.png",
@@ -70,7 +78,7 @@ const AllProjects =[
         GitLink:"https://github.com/lucas694/Nft-Marketplace"
     },
     {
-        id:7 ,
+        id:8 ,
         title:"Shadient",
         description: "Full-Stack Project",
         img:"/assets/img/project-cards/shadient.png",
@@ -78,13 +86,14 @@ const AllProjects =[
         GitLink:"https://github.com/lucas694/Shadient"
     },
     {
-        id:8 ,
+        id:9 ,
         title:"Pokedex App",
         description: "Full-Stack Project",
         img:"/assets/img/project-cards/pokemon.png",
         link:"https://pokedex-pied-six.vercel.app",
         GitLink:"https://github.com/lucas694/pokedex"
     },
+    
     //{
     //    id:3 ,
     //    title:"Valorant App",
